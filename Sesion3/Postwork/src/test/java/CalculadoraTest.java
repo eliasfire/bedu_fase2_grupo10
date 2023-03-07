@@ -18,10 +18,10 @@ class CalculadoraTest {
         Calculadora calculadora = new Calculadora();
 
         int i, j;
-        Integer[] resultadosArray = new Integer[100];
+        Integer[] resultadosArray = new Integer[10000];
 
-        for (i = 0; i < 100; i++) {
-            for (j = 0; j < 100; j++) {
+        for (i = 0; i < 10000; i++) {
+            for (j = 0; j < 10000; j++) {
                 if (i == j) {
                     resultadosArray[i] = i * j;
                 }
@@ -34,7 +34,7 @@ class CalculadoraTest {
         }
 
 
-        return IntStream.iterate(0, n -> n + 1).limit(100)
+        return IntStream.iterate(0, n -> n + 1).limit(10000)
                 .mapToObj(n -> dynamicTest("Calculando cuadrados #" + n, () -> {
                         assertEquals(calculadora.multiplicacion(n, n), listaResultados.get(n));
                     }));
