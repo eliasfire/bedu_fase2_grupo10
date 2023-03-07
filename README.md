@@ -1,4 +1,4 @@
-# bedu_fase2_grupo10
+# Bedu_fase2_grupo10
 Grupo10 de la Fase 2 de Bedu Java
 
 Integrantes:
@@ -12,4 +12,22 @@ Integrantes:
 
 
 
-Aca iremos subiendo los ejercicios de https://github.com/beduExpert/Java-Backend-I-Santander-2022/tree/main/Sesion-01
+Acá iremos subiendo los ejercicios de [Java-Backend-I-Santander-2022](https://github.com/beduExpert/Java-Backend-I-Santander-2022).
+
+
+## :bookmark_tabs: Carpetas de cada sesión:
+
+<img align="right" src="https://media.tenor.com/DimzPZMypFcAAAAM/laptop.gif" alt="catCoding" width="200"/>
+
+| Sesión                          | Descripción                                                       |
+|---------------------------------|-------------------------------------------------------------------|
+| [Sesión 1](./Sesion1)           | Construcción de proyectos con Gradle          |
+| [Sesión 2](./Sesion2/Postwork)  | Patrones de diseño |
+| [Sesión 3](./Sesion3/README.md) | Anotaciones y pruebas unitarias con JUnit|
+
+
+
+
+ 
+
+
