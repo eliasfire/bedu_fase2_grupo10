@@ -23,7 +23,7 @@ Acá iremos subiendo los ejercicios de [Java-Backend-I-Santander-2022](https://g
 |---------------------------------|-------------------------------------------------------------------|
 | [Sesión 1](./Sesion1)           | Construcción de proyectos con Gradle          |
 | [Sesión 2](./Sesion2/Postwork)  | Patrones de diseño |
-| [Sesión 3](./Sesion3/README.md) | Anotaciones y pruebas unitarias con JUnit|
+| [Sesión 3](./Sesion3) | Anotaciones y pruebas unitarias con JUnit|
 
 
 
