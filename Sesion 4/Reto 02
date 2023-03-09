@@ -96,6 +96,27 @@ Reto 02 - Controladores PUT para actualización de información
              }
              
   3- Se ejecutó la aplicación desde el IDE con el comando: gradle bootRun
-  4- Se ingresó la dirección URL http://localhost:8080/saludo en el navegador
+  4- Se ingresó la dirección URL http://localhost:8080/saludo a Postman y el tipo de petición se especificó como PUT
+  5- Se eligió en la pestaña de la petición de Postman "Body", "Raw" y "JSON" como en los ejercicios anteriores. Se escribió:
   
-
+           1   {
+           2 "mensaje": "Hola Mundo",
+           3 "nombre": "beto",
+           4 "edad": 5,
+           5 "fechaNacimiento": "2022-11-01"
+           6  }
+   
+   6- El resultado en Postman (después de seleccionar Send) es:
+   
+           1   {
+           2 "mensaje": "Hola Mundo",
+           3 "nombre": "beto",
+           4 "edad": 5,
+           5 "fechaNacimiento": "2022-11-02"
+           6  }
+           
+           6  }
+    7- En el navergador web el resultado debe verse de la siguente manera después de consultar la URL http://localhost:8080/saludo:
+    
+            {"mensaje":"Hola Mundo!!!", "nombre":"beto", "edad":5, "fechaNacimiento":"2022-11-02"}
+    8- Fin del reto
