@@ -1,1 +1,56 @@
+Reto 02 - Controladores PUT para actualización de información
 
+1- Se desea agregar una nueva variable al saludo de usuario, por lo que las clases usadas durante la sesión (Saludo.java y SaludoController.java) deben
+   actualizarse con una nueva variable (la fecha de nacimiento) y sus métodos para que sea muestre dentro del mensaje en la pantalla al usuario. 
+   Para ello primero se actualiza la clase Saludo.java
+ 
+   Saludo.java
+   
+       package org.bedu.java.backend.sesion4.models;
+
+      import java.time.LocalDate;
+
+      public class Saludo {
+
+          private String mensaje;
+          private String nombre;
+          private int edad;
+          private LocalDate fechaNacimiento;  //Se añade la variable
+
+          public LocalDate getFechaNacimiento() {   //Se añade su método get y
+              return fechaNacimiento;
+          }
+
+          public void setFechaNacimiento(LocalDate fechaNacimiento) {  //Se añade su método set
+              this.fechaNacimiento = fechaNacimiento;
+          }
+
+          public int getEdad() {
+              return edad;
+          }
+
+          public void setEdad(int edad) {
+              this.edad = edad;
+          }
+
+
+          public String getNombre() {
+              return nombre;
+          }
+
+          public void setNombre(String nombre) {
+              this.nombre = nombre;
+          }
+
+
+          public String getMensaje() {
+              return mensaje;
+          }
+
+          public void setMensaje(String mensaje) {
+              this.mensaje = mensaje;
+          }
+      }
+      
+  2- Posteriormente debe actualizarse la clase SaludoController.java, donde es importante tomar en cuenta la modificación que se hará a la fecha mostrada
+      
