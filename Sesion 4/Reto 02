@@ -54,4 +54,48 @@ Reto 02 - Controladores PUT para actualización de información
       
   2- Posteriormente debe actualizarse la clase SaludoController.java, donde es importante tomar en cuenta la modificación que se hará a la fecha mostrada
      en pantalla
+     
+     SaludoController.java
       
+         package org.bedu.java.backend.sesion4.controllers;
+
+         import org.bedu.java.backend.sesion4.models.Saludo;
+         import org.springframework.web.bind.annotation.*;
+
+         @RestController
+         public class SaludoController {
+
+             @GetMapping ("/saludo")
+             public Saludo saluda(){
+                 Saludo saludo = new Saludo();
+                 saludo.setMensaje("Hola Mundo!!!");
+                 return saludo;
+
+             }
+
+             @GetMapping ("/saludo/ {nombre}")
+             public Saludo saludaConParam (@PathVariable String nombre){
+                 Saludo saludo = new Saludo();
+                 saludo.setMensaje("Hola Mundo!!!");
+                 saludo.setNombre(nombre);
+                 return saludo;
+                 }
+
+                 @PostMapping("/saludo")
+                     public Saludo saludaPost(@RequestBody Saludo saludo){
+                     return saludo;
+                 }
+
+                 @PutMapping("/saludo")    //Se cambia el uso a una anotación, el tipo PUT es el indicado para este caso
+                 public Saludo saluda(@RequestBody Saludo saludo){  //Anotación de solicitud
+
+                     saludo.setFechaNacimiento(saludo.getFechaNacimiento().plusDays(1)); //Se modifica y suma así un día a la fecha indicada por el usuario
+
+                     return saludo;
+                 }
+             }
+             
+  3- Se ejecutó la aplicación desde el IDE con el comando: gradle bootRun
+  4- Se ingresó la dirección URL http://localhost:8080/saludo en el navegador
+  
+
