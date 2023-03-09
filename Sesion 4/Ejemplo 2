@@ -1,1 +1,40 @@
-# Ejemplo 2 - Controladores de lectura con Spring MVC
+Ejemplo 2 - Controladores de lectura con Spring MVC
+
+Las dos clases creadas fueron Saludo.java y SaludoController.java
+
+Saludo.java 
+
+package org.bedu.java.backend.sesion4.models;
+
+import java.time.LocalDate;
+
+public class Saludo {
+
+    private String mensaje;
+
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
+}
+
+
+SaludoController.java
+
+package org.bedu.java.backend.sesion4.controllers;
+
+import org.bedu.java.backend.sesion4.models.Saludo;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class SaludoController {
+
+    @GetMapping ("/saludo")
+    public Saludo saluda(){
+        Saludo saludo = new Saludo();
+        saludo.setMensaje("Hola Mundo!!!");
+        return saludo;
+    }
