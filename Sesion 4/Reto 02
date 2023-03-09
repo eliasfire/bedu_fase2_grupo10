@@ -53,4 +53,5 @@ Reto 02 - Controladores PUT para actualización de información
       }
       
   2- Posteriormente debe actualizarse la clase SaludoController.java, donde es importante tomar en cuenta la modificación que se hará a la fecha mostrada
+     en pantalla
       
