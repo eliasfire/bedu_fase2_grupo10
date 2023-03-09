@@ -52,8 +52,8 @@ Reto 01 - Controladores con Spring MVC con parámetros
 
                   }
 
-                  @GetMapping ("/saludo/ {nombre}")
-                  public Saludo saludaConParam (@PathVariable String nombre){
+                  @GetMapping ("/saludo/ {nombre}")    // se usa esta anotación porque sólo es un valor estático y se indica la ruta
+                  public Saludo saludaConParam (@PathVariable String nombre){         
                       Saludo saludo = new Saludo();
                       saludo.setMensaje("Hola Mundo!!!");
                       saludo.setNombre(nombre);
@@ -61,4 +61,18 @@ Reto 01 - Controladores con Spring MVC con parámetros
                       }
                   }
 
-3- 
+3- Se ejecuta la aplicación desde la terminal con el comando: gradle bootRun
+4- Se ingresa la URL http://localhost:8080/saludo/beto al navegador web
+5- En la pantalla aparece el siguiente mensaje:
+
+        {"mensaje":"Hola Mundo!!!", "nombre":"beto"}    //Aparece el nombre del usuario
+
+6- Si hacemos esta petición mediante GET en Postman, con la misma URL (http://localhost:8080/saludo/beto) el resultado debe ser el mismo mensaje, 
+   pero con la siguiente presentación:
+        
+      1  {
+      2     "mensaje": "Hola Mundo",
+      3     "nombre": "beto"
+      4  }
+
+7- Fin del reto
