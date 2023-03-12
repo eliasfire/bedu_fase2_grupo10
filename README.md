@@ -24,7 +24,11 @@ Acá iremos subiendo los ejercicios de [Java-Backend-I-Santander-2022](https://g
 | [Sesión 1](./Sesion1)           | Construcción de proyectos con Gradle          |
 | [Sesión 2](./Sesion2/Postwork)  | Patrones de diseño |
 | [Sesión 3](./Sesion3) | Anotaciones y pruebas unitarias con JUnit|
-| [Sesion 4](./Sesion4)| Introducción a Spring Boot |
+| [Sesión 4](./Sesion4)| Introducción a Spring Boot |
+| [Sesión 5]|Java Beans y la Inversión de Control (IoC) en Spring Boot|
+| [Sesión 6]|Patrón MVC con Spring Boot|
+| [Sesión 7]|Integración de Thymeleaf con Spring Boot|
+| [Sesión 8]|Conexión a base de datos con Spring Data|
 
 
 
