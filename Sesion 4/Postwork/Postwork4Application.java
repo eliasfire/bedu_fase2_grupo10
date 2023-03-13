@@ -1,4 +1,5 @@
 package org.bedu.java.backend.postwork4;
+
 import org.bedu.java.backend.postwork4.datos.Person;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -23,9 +24,7 @@ public class Postwork4Application implements CommandLineRunner {
 			String phone = reader.nextLine();
 		}
 
-		Person persona1 = new Person(name,phone);
-
-		System.out.println(persona1);
+		Person persona1 = new Person("Marco", "3478347843");
+		System.out.println (persona1);
 
 	}
-
