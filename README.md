@@ -1,5 +1,4 @@
-# Bedu_fase2_grupo10
-Grupo10 de la Fase 2 de Bedu Java
+# Grupo10 de la Fase 2 de Bedu Java
 
 Integrantes:
 
