@@ -1,21 +1,42 @@
-# Pruebas básicas con JUnit 5 y Mockito
-## Contenidos
+# ANOTACIONES Y PRUEBAS UNITARIAS CON JUNIT
 
-| Ejercicios | Descripción                                                                  | Clases                                                                                                                                  | Clases Test                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| E1         | Creación y ejecución de una prueba básica en JUnit 5.                        | [Calculadora](./Ejercicios/E1/src/main/java/Calculadora.java)                                                                           | [CalculadoraTest](./Ejercicios/E1/src/test/java/CalculadoraTest.java)                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| E2         | Validación del funcionamiento de una clase con el uso de un doble de prueba. | [Calculadora](./Ejercicios/E2/src/main/java/Calculadora.java), </br>[CalculadoraDAO](./Ejercicios/E2/src/main/java/CalculadoraDAO.java) | [CalculadoraTest](./Ejercicios/E2/src/test/java/CalculadoraTest.java)                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| E3         | Creación y ejecución de una suite de pruebas.                                | [Calculadora](./Ejercicios/E3/src/main/java/Calculadora.java)                                                                           | [CalculadoraTest](./Ejercicios/E3/src/test/java/CalculadoraTest.java), </br>[CalculadoraSumaTest](./Ejercicios/E3/src/test/java/CalculadoraSumaTest.java), </br>[CalculadoraRestaTest](./Ejercicios/E3/src/test/java/CalculadoraRestaTest.java), </br>[CalculadoraMultiplicacionTest](./Ejercicios/E3/src/test/java/CalculadoraMultiplicacionTest.java), </br> [CalculadoraDividirTest](./Ejercicios/E3/src/test/java/CalculadoraDividirTest.java) |
+Utilizar JUnit para probar una pieza de código, utilizar las anotaciones de JUnit para realizar pruebas dinámicas usando JUnit 5
 
-<hr style="background-color:gray">
+### Contenidos:
 
-| Retos | Descripción                                                                                                 | Clases                                                                                                                                              | Clases Test                                                                 |
-|-------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| Reto1 | Ejecución de una prueba unitaria que verifica el lanzamiento de una excepción </br> al validar una funcionalidad. | [Calculadora](./Retos/Reto1/src/main/java/Calculadora.java)                                                                                         | [CalculadoraTest](./Retos/Reto1/src/test/java/CalculadoraTest.java)         |
-| Reto2 | Ejecución de una prueba unitaria con mockito para validar que los métodos adecuados se hayan ejecutado.     | [CalculadoraService](./Retos/Reto2/src/main/java/CalculadoraService.java), </br>[MathApplication](./Retos/Reto2/src/main/java/MathApplication.java) | [MathApplicationTest](./Retos/Reto2/src/test/java/MathApplicationTest.java) |
+<img align="right" src="https://avatars.githubusercontent.com/u/874086?s=200&v=4" alt="gradle" width="300"/>
 
-<hr style="background-color:gray">
+<ul>
+    <li>
+    Ejemplos:
+    </li>
+</ul>
 
-| Postwork | Descripción                                                                                | Clases                                                   | Clases Test                                                      |
-|----------|--------------------------------------------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------------------|
-| Postwork | Ejecución de pruebas dinámicas utilizando la fábrica de pruebas de JUnit 5 (Test Factory). | [Calculadora](./Postwork/src/main/java/Calculadora.java) | [CalculadoraTest](./Postwork/src/test/java/CalculadoraTest.java) |
+<strong>------></strong>[Ejemplo #1](./ejemplos/ejemplo1/build.gradle)
+
+<strong>------></strong>[Ejemplo #2](./ejemplos/ejemplo1/build.gradle)
+
+<strong>------></strong>[Ejemplo #3](./ejemplos/ejemplo1/build.gradle)
+<ul>
+    <li>
+    Retos:
+    </li>
+</ul>
+
+<strong>------></strong>[Reto #1](./retos/reto1/src)
+
+<strong>------></strong>[Reto #2](./retos/reto2/src)
+  <ul>
+    <li>
+    Postwork:
+    </li>
+</ul>  
+
+<strong>------></strong>[Carpeta Principal](./postwork)
+
+
+<br>
+
+[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+
+[**`Regresar`**](./)
