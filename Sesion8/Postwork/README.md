@@ -34,13 +34,13 @@ Almacenar la información de la agenda en MySQL y despues recuperarlas.
 #### El proyecto funcionando se ve de la siguiente manera:
 
 - Conexión a base de datos con H2 Console:
-- 
+
 ![pantalla-h2-console](img/editar.png)
 
 #### El proyecto funcionando se ve de la siguiente manera:
 
 - Conexión a base de datos con H2 Console:
-- 
+
 ![pantalla-h2-console-connection](img/eliminar.png)
 
 
