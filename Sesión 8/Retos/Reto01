@@ -1,13 +1,13 @@
 Reto 01: Persistencia de datos con Spring Data JPA
 
-- Códifo correspondiente a:
+- Código correspondiente a:
 
 1. CLASE PRODUCTOCONTROLLER EN CONTROLLER
 
-package org.bedu.java.backend.solucion.controller;
+package org.bedu.javabackend.reto1.controller;
 
-import org.bedu.java.backend.solucion.model.Producto;
-import org.bedu.java.backend.solucion.persistence.ProductoRepository;
+import org.bedu.javabackend.reto1.model.Producto;
+import org.bedu.javabackend.reto1.persistence.ProductoRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,11 +21,11 @@ import java.util.Optional;
 @RequestMapping("/producto")
 public class ProductoController {
 
-    private final ProductoRepository productoRepository;
+    private final ProductoRepo productoRepo;
 
     @Autowired
-    public ProductoController(ProductoRepository productoRepository) {
-        this.productoRepository = productoRepository;
+    public ProductoController(ProductoRepo productoRepo) {
+        this.productoRepo = productoRepo;
     }
 
     @PostMapping
@@ -39,7 +39,7 @@ public class ProductoController {
     @GetMapping("/{productoId}")
     public ResponseEntity<Producto> getProducto(@PathVariable Long productoId) {
 
-        Optional<Producto> productoDB = productoRepository.findById(productoId);
+        Optional<Producto> productoDB = productoRepos.findById(productoId);
 
         if (!productoDB.isPresent())
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "El producto especificado no existe.");
@@ -50,7 +50,7 @@ public class ProductoController {
 
 2. CLASE PRODUCTO EN MODEL
        
-          package org.bedu.java.backend.solucion.model;
+          package org.bedu.java.backend.reto1.model;
 
           import javax.persistence.*;
           import java.time.LocalDate;
@@ -121,7 +121,7 @@ public class ProductoController {
           }
 
    
-3. CLASE PORDUCTOREPO EN PERSISTENCE
+3. CLASE PRoDUCTOREPO EN PERSISTENCE
 
 
             package org.bedu.javabackend.reto1.persistence;
