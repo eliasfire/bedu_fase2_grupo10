@@ -1,4 +1,4 @@
-# Integración de Thymeleaf y Spring Boot
+# INTEGRACIÓN DE THYMELEAF CON SPRING BOOT
 
 <img align="right" src="https://dc722jrlp2zu8.cloudfront.net/media/django-summernote/2018-07-12/06e590ff-a9d4-4425-a091-c8f231b71b22.png" alt="thymeleaf" width="400"/>
 
@@ -20,3 +20,10 @@ Así como mostrar mensajes estáticos y dinámicos en una página web y procesar
 elementos visuales del sitio)
 
 --->[Carpeta principal de la aplicación](./Postwork/src/main/java/org/bedu/java/backend/sesion7) (La lógica del programa se ejecuta siguiendo el patrón de diseño MVC)
+
+
+<br>
+
+[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+
+[**`Regresar`**](./)
