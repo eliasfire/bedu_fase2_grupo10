@@ -27,7 +27,7 @@ Acá iremos subiendo los ejercicios de [Java-Backend-I-Santander-2022](https://g
 | [Sesión 4](./Sesion4)          | Introducción a Spring Boot |
 | [Sesión 5](./Sesion5/Postwork) |Java Beans y la Inversión de Control (IoC) en Spring Boot|
 | [Sesión 6](./Sesion6)          |Patrón MVC con Spring Boot|
-| [Sesión 7]                     |Integración de Thymeleaf con Spring Boot|
+| [Sesión 7](./Sesion7/Postwork) |Integración de Thymeleaf con Spring Boot|
 | [Sesión 8]                     |Conexión a base de datos con Spring Data|
 
 
