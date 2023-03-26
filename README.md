@@ -31,7 +31,9 @@ Acá iremos subiendo los ejercicios de [Java-Backend-I-Santander-2022](https://g
 | [Sesión 8](./Sesion8) |Conexión a base de datos con Spring Data|
 
 
+### Trabajo Final:
 
+![pantalla-aplicacion](./Sesion8/Postwork/img/index.png)
 
  
 
