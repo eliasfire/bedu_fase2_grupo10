@@ -34,7 +34,9 @@ El objetivo de esta sesión es utilizar gradle para construir y ejecutar proyect
 
 <strong>------></strong>[HTML](./postwork/build/gen-html/quickExample.html)
 
-[**`Siguiente`** -> Sesión 02](../../Sesion02/)
+<br>
 
-[**`Regresar`**](../)
+[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+
+[**`Regresar`**](./)
 
