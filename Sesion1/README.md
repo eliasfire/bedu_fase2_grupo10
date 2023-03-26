@@ -1,4 +1,4 @@
-# Construcción de proyectos con Gradle 🐘
+# CONSTRUCCIÓN DE PROYECTOS CON GRADLE 🐘
 
 El objetivo de esta sesión es utilizar gradle para construir y ejecutar proyectos escritos con java.
 
