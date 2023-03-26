@@ -1,6 +1,7 @@
-Reto 01 - Controladores con Spring MVC con parámetros
+# Reto 01 - Controladores con Spring MVC con parámetros
 
 1- Se desea añadir un nombre al saludo de usuario realizado en el ejemplo1, para ello deben actualizarse las clases creadas en dicho ejemplo. 
+
 2- Las clases creadas se actualizaron añadiendo la variable "nombre" y sus métodos. Las clases quedaron de la siguiente manera:
 
     Saludo.java
@@ -62,7 +63,9 @@ Reto 01 - Controladores con Spring MVC con parámetros
                   }
 
 3- Se ejecuta la aplicación desde la terminal con el comando: gradle bootRun
+
 4- Se ingresa la URL http://localhost:8080/saludo/beto al navegador web
+
 5- En la pantalla aparece el siguiente mensaje:
 
         {"mensaje":"Hola Mundo!!!", "nombre":"beto"}    //Aparece el nombre del usuario

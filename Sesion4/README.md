@@ -9,15 +9,15 @@ de desarrollar y consumir un servicio web REST usando Spring MVC posteriormente.
 
 --->[Ejemplo #1](./Ejemplo%201.md)
 
---->[Ejemplo #2](./Ejemplo%202)
+--->[Ejemplo #2](./Ejemplo%202.md)
 
---->[Ejemplo #3](./Ejemplo%203)
+--->[Ejemplo #3](./Ejemplo%203.md)
 
 <hr style="background-color:gray" width="250">
 
---->[Reto #1](./Reto%2001)
+--->[Reto #1](./Reto%2001.md)
 
---->[Reto #2](./Reto%2002)
+--->[Reto #2](./Reto%2002.md)
 
 <hr style="background-color:gray" width="250">
 

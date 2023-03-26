@@ -1,10 +1,10 @@
-Reto 02 - Controladores PUT para actualización de información
+# Reto 02 - Controladores PUT para actualización de información
 
 1- Se desea agregar una nueva variable al saludo de usuario, por lo que las clases usadas durante la sesión (Saludo.java y SaludoController.java) deben
    actualizarse con una nueva variable (la fecha de nacimiento) y sus métodos para que sea muestre dentro del mensaje en la pantalla al usuario. 
    Para ello primero se actualiza la clase Saludo.java
  
-   Saludo.java
+    Saludo.java
    
        package org.bedu.java.backend.sesion4.models;
 
@@ -52,7 +52,7 @@ Reto 02 - Controladores PUT para actualización de información
           }
       }
       
-  2- Posteriormente debe actualizarse la clase SaludoController.java, donde es importante tomar en cuenta la modificación que se hará a la fecha mostrada
+2- Posteriormente debe actualizarse la clase SaludoController.java, donde es importante tomar en cuenta la modificación que se hará a la fecha mostrada
      en pantalla
      
      SaludoController.java
@@ -95,9 +95,11 @@ Reto 02 - Controladores PUT para actualización de información
                  }
              }
              
-  3- Se ejecutó la aplicación desde el IDE con el comando: gradle bootRun
-  4- Se ingresó la dirección URL http://localhost:8080/saludo a Postman y el tipo de petición se especificó como PUT
-  5- Se eligió en la pestaña de la petición de Postman "Body", "Raw" y "JSON" como en los ejercicios anteriores. Se escribió:
+3- Se ejecutó la aplicación desde el IDE con el comando: gradle bootRun
+  
+4- Se ingresó la dirección URL http://localhost:8080/saludo a Postman y el tipo de petición se especificó como PUT
+  
+5- Se eligió en la pestaña de la petición de Postman "Body", "Raw" y "JSON" como en los ejercicios anteriores. Se escribió:
   
            1   {
            2 "mensaje": "Hola Mundo",
@@ -106,7 +108,7 @@ Reto 02 - Controladores PUT para actualización de información
            5 "fechaNacimiento": "2022-11-01"
            6  }
    
-   6- El resultado en Postman (después de seleccionar Send) es:
+6- El resultado en Postman (después de seleccionar Send) es:
    
            1   {
            2 "mensaje": "Hola Mundo",
@@ -115,8 +117,9 @@ Reto 02 - Controladores PUT para actualización de información
            5 "fechaNacimiento": "2022-11-02"
            6  }
            
-           6  }
-    7- En el navergador web el resultado debe verse de la siguente manera después de consultar la URL http://localhost:8080/saludo:
+           
+7- En el navergador web el resultado debe verse de la siguente manera después de consultar la URL http://localhost:8080/saludo:
     
-            {"mensaje":"Hola Mundo!!!", "nombre":"beto", "edad":5, "fechaNacimiento":"2022-11-02"}
-    8- Fin del reto
+    {"mensaje":"Hola Mundo!!!", "nombre":"beto", "edad":5, "fechaNacimiento":"2022-11-02"}
+
+8- Fin del reto

@@ -1,4 +1,4 @@
-Ejemplo 2 - Controladores de lectura con Spring MVC
+# Ejemplo 2 - Controladores de lectura con Spring MVC
 
 1- Se crearon dos clases: Saludo.java y SaludoController.java dentro del proyecto creado previamente con Spring Boot, la finalidad es que estas clases
    permitan dar un saludo al usuario. Las clases quedaron de la siguiente manera:
@@ -41,13 +41,17 @@ Ejemplo 2 - Controladores de lectura con Spring MVC
             }
 
 2- Posteriormente se ejecutó la aplicación desde el IDE con el comando: gradle bootRun
+
 3- Se ingresó la dirección URL http://localhost:8080/saludo en el navegador
+
 4- El mensaje que apareció fue:
 
     {"mensaje":"Hola Mundo!!!"}
         
 5- Se corroboró el mensaje, pero esta vez desde Postman
+
 6- Para ello se empleó la modalidad GET con la misma URL (http://localhost:8080/saludo)
+
 7- Apareció el siguente mensaje:
      
     1 {
