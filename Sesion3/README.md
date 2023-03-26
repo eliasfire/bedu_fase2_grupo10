@@ -37,6 +37,6 @@ Utilizar JUnit para probar una pieza de código, utilizar las anotaciones de JUn
 
 <br>
 
-[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+[**`Siguiente`** -> Sesión 04](../Sesion4/Postwork)
 
 [**`Regresar`**](./)
