@@ -7,7 +7,7 @@ de desarrollar y consumir un servicio web REST usando Spring MVC posteriormente.
 
 <img align="right" src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="Spring" width="250"/>
 
---->[Ejemplo #1](./Ejemplo%201)
+--->[Ejemplo #1](./Ejemplo%201.md)
 
 --->[Ejemplo #2](./Ejemplo%202)
 
