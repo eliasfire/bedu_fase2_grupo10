@@ -3,7 +3,7 @@ Reto02: Inicialización de datos con SQL
 - Código modificado en las clases:
 
 1. ETAPA EN MODEL
-            package org.bedu.javabackend.reto2.model;
+            package org.bedu.javabackend.reto02.model;
 
             import javax.persistence.*;
 
@@ -43,4 +43,30 @@ Reto02: Inicialización de datos con SQL
                 public void setOrden(Integer orden) {
                     this.orden = orden;
                 }
+            }
+2. ETAPAREPO EN PERSISTENCE
+
+            package org.bedu.javabackend.reto02.persistence;
+
+            import org.bedu.javabackend.reto02.model.Etapa;
+            import org.springframework.data.jpa.repository.JpaRepository;
+
+            public interface EtapaRepo extends JpaRepository<Etapa, Long> {
+
+            }
+            
+3. APPLICACIÓN DEL RETO 02
+
+            package org.bedu.javabackend.reto02;
+
+            import org.springframework.boot.SpringApplication;
+            import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+            @SpringBootApplication
+            public class Reto02Application {
+
+                public static void main(String[] args) {
+                    SpringApplication.run(Reto02nApplication.class, args);
+                }
+
             }
