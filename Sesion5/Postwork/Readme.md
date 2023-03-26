@@ -1,4 +1,4 @@
-**Indicaciones generales**
+# Indicaciones generales
 
 - Extender el programa de línea de comandos para utilizar el IoC de Spring Boot
 
@@ -13,3 +13,4 @@
    ``` 
    gradle bootRun
    ```
+--->[Ir a clases del Postwork](./src/main/java)
