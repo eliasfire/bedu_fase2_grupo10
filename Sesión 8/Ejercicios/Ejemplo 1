@@ -1,4 +1,4 @@
-Ejemplo 01: Persistencia de datos con Spring Data JPA
+Ejemplo 1: Persistencia de datos con Spring Data JPA
 
 1. Crear las dependencias a agregar con Srping Initializr
 2. Generamos los subpaquetes y clases necesarias:
