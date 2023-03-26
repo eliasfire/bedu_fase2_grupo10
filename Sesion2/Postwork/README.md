@@ -1,4 +1,4 @@
-**Indicaciones generales**
+# Indicaciones generales
 
 Una cadena de helados muy famosa en el país ha solicitado tu ayuda para implementar una nueva versión de su sistema actual. Sus productos disponibles son los siguientes:
 
@@ -19,3 +19,5 @@ La cadena busca agregar nuevos extras:
 La inclusión de estos productos complica el desarrollo del sistema actual debido a que habría que agregar todas las variantes de los productos viejos con los nuevos. Por lo tanto, el sistema no es **mantenible**.
 
 La misión será crear la nueva versión del sistema utilizando el patrón **Decorador** de los patrones estructurales, así como un programa que permita probar la nueva implementación.
+
+-------> [Ir a las clases de la app](./src/main/java)
