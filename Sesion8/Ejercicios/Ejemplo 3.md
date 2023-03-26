@@ -1,4 +1,4 @@
-Ejemplo 3: Consola de H2
+# Ejemplo 3: Consola de H2
 
 1. Partimos del proyecto que se empleó en el Ejemplo 1
 2. Realizamos modificaciones en diferentes archivos 

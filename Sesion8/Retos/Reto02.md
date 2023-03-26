@@ -1,4 +1,4 @@
-Reto02: Inicialización de datos con SQL
+# Reto02: Inicialización de datos con SQL
 
 - Código modificado en las clases:
 

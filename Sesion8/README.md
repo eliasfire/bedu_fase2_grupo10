@@ -1,42 +1,44 @@
-# CONEXIÓN A BASE DE DATOS CON SPRING DATA
+# Conexión a base de datos con Spring Data
 
-Almacenar la información de la agenda en MySQL y despues recuperarlas.
+<img align="right" src="https://blog.mailup.es/wp-content/uploads/2022/10/Copertina-Blog-Settembre_2022-800x450.png" alt="database" width="400"/>
+
+Uno de los pilares que sostiene una aplicación funcional, es registrar
+e intercambiar datos de manera eficiente y segura.
+**Spring Data JPA** es el módulo de Spring que permite trabajar con JPA
+en nuestras aplicaciones, encapsulando toda la complejidad del acceso
+a datos. En esta sesión averiguaremos qué es una entidad, cómo se usa en una aplicación y cómo declararla.
+A su vez identificaremos qué es un repositorio de Spring Data y la forma de declararlos, y por
+último hacer uso de una consola embebida en la aplicación (H2) para realizar consultas.
 
 ### Contenidos:
 
-<img align="right" src="https://kinsta.com/wp-content/uploads/2019/04/logo-mysql-1.svg" alt="gradle" width="300"/>
-
 <ul>
-    <li>
-    Ejemplos:
-    </li>
+<li> Ejercicios</li>
 </ul>
 
-<strong>------></strong>[Ejemplo #1](./ejemplos/ejemplo1/build.gradle)
+<strong>--------></strong>[Ejemplo #1](./Ejercicios/Ejemplo%201.md)
 
-<strong>------></strong>[Ejemplo #2](./ejemplos/ejemplo1/build.gradle)
+<strong>--------></strong>[Ejemplo #2](./Ejercicios/Ejemplo%202.md)
 
-<strong>------></strong>[Ejemplo #3](./ejemplos/ejemplo1/build.gradle)
+<strong>--------></strong>[Ejemplo #3](./Ejercicios/Ejemplo%203.md)
+
 <ul>
-    <li>
-    Retos:
-    </li>
+<li> Retos</li>
 </ul>
 
-<strong>------></strong>[Reto #1](./retos/reto1/src)
+<strong>--------></strong>[Reto #1](./Retos/Reto01.md)
 
-<strong>------></strong>[Reto #2](./retos/reto2/src)
-  <ul>
-    <li>
-    Postwork:
-    </li>
-</ul>  
+<strong>--------></strong>[Reto #2](./Retos/Reto02.md)
 
-<strong>------></strong>[Carpeta Principal](./postwork)
+<ul>
+<li> Postwork</li>
+</ul>
 
 
-<br>
+<strong>--------></strong>[Carpeta raíz del Postwork](./Postwork)
 
-[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+<strong>--------></strong>[Carpeta de Paquetes y Clases principales](./Postwork/src/main/java/org/bedu/java/backend/sesion8) (Arquitectura MVC)
 
-[**`Regresar`**](./)
+<strong>--------></strong>[Elementos visuales](./Postwork/src/main/resources) (Archivos HTML en carpeta [templates](./Postwork/src/main/resources/templates) y css en carpeta [static](./Postwork/src/main/resources/static))
+
+<strong>--------></strong>[Propiedades](./Postwork/src/main/resources/application.properties) y [Configuración gradle](./Postwork/build.gradle)

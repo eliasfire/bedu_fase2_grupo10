@@ -1,6 +1,6 @@
-Ejemplo 2: Inicialización de base de datos con CommandLineRunner
+# Ejemplo 2: Inicialización de base de datos con CommandLineRunner
 
-2. Generamos los subpaquetes y clases necesarias:
+1. Generamos los subpaquetes y clases necesarias:
       
       Controller - tendrá la clase ClienteController
       Model  - tendrá la clase Etapa
