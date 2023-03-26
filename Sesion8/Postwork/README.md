@@ -12,7 +12,7 @@ Almacenar la información de la agenda en MySQL y despues recuperarlas.
 
 ### DESARROLLO
 
-1. Se reemplazó el `Set` donde se almacenaba la información de la agenda por una base de datos relacional MySQL, de esta forma, al reiniciar la aplicación la información sigue disponible.
+1. Decidimos usar Bootstrap para darle una presentacion mas agradable, usamos la plantilla Cover (https://getbootstrap.com/docs/5.0/examples/cover/) que nos gusto porque tenia un estilo similar a la pagina web de BEDU. 
 2. Se integraron las depencias de Spring data JPA y el driver de MySQL en el archivo `build.gradle`.
 3. Se reemplazó la clase que guardaba los datos en memoria por un repositorio de Spring Data.
 4. Se convirtió la clase `Persona` en una entidad de JPA.
@@ -21,14 +21,26 @@ Almacenar la información de la agenda en MySQL y despues recuperarlas.
 7. Se modificó la plantilla html para incorporar el uso de fragmentos html reutilizables al desplegar la lista de personas de la agenda.
 
 #### El proyecto funcionando se ve de la siguiente manera:
+
 ![pantalla-aplicacion](img/index.png)
+
+#### El proyecto funcionando se ve de la siguiente manera:
 
 - Conexión a base de datos con H2 Console:
 
-![pantalla-h2-console-connection](img/pantalla-h2-console-connection.png)
+![pantalla-h2-console-connection](img/nuevo.png)
 
-![pantalla-h2-console](img/pantalla-h2-console.png)
+#### El proyecto funcionando se ve de la siguiente manera:
 
+- Conexión a base de datos con H2 Console:
+- 
+![pantalla-h2-console](img/editar.png)
+
+#### El proyecto funcionando se ve de la siguiente manera:
+
+- Conexión a base de datos con H2 Console:
+- 
+![pantalla-h2-console-connection](img/eliminar.png)
 
 
 <br>
