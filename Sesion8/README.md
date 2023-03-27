@@ -42,3 +42,11 @@ A su vez identificaremos qué es un repositorio de Spring Data y la forma de dec
 <strong>--------></strong>[Elementos visuales](./Postwork/src/main/resources) (Archivos HTML en carpeta [templates](./Postwork/src/main/resources/templates) y css en carpeta [static](./Postwork/src/main/resources/static))
 
 <strong>--------></strong>[Propiedades](./Postwork/src/main/resources/application.properties) y [Configuración gradle](./Postwork/build.gradle)
+
+
+<br>
+
+[**`Siguiente`** -> Sesión 08](../Sesion8)
+
+[**`Regresar`**](./)
+
