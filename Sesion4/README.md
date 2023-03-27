@@ -28,4 +28,4 @@ de desarrollar y consumir un servicio web REST usando Spring MVC posteriormente.
 
 [**`Siguiente`** -> Sesión 05](../Sesion5/Postwork)
 
-[**`Regresar`**](../)
+[**`Regresar`**](../../../)
