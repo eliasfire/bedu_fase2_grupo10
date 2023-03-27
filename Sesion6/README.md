@@ -48,5 +48,5 @@ distintas capas de la arquitectura MVC en paquetes diferentes con sus respectiva
 
 [**`Siguiente`** -> Sesión 07](../Sesion7)
 
-[**`Regresar`**](../)
+[**`Regresar`**](../../../)
 
