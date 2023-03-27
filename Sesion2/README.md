@@ -37,6 +37,6 @@ Resolver un problema utilizando patrones de diseño y construir la solución uti
 
 <br>
 
-[**`Siguiente`** -> Sesión 02](../Sesion3)
+[**`Siguiente`** -> Sesión 03](../Sesion3)
 
 [**`Regresar`**](./)
