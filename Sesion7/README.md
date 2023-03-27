@@ -26,4 +26,4 @@ elementos visuales del sitio)
 
 [**`Siguiente`** -> Sesión 08](../Sesion8)
 
-[**`Regresar`**](../)
+[**`Regresar`**](../../../)
