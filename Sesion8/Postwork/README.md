@@ -46,6 +46,4 @@ Almacenar la información de la agenda en MySQL y despues recuperarlas.
 
 <br>
 
-[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
-
-[**`Regresar`**](./)
+[**`Regresar`**](../)

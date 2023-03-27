@@ -46,7 +46,7 @@ distintas capas de la arquitectura MVC en paquetes diferentes con sus respectiva
 
 <br>
 
-[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+[**`Siguiente`** -> Sesión 07](../Sesion7)
 
-[**`Regresar`**](./)
+[**`Regresar`**](../)
 

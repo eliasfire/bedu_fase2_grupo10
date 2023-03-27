@@ -46,7 +46,5 @@ A su vez identificaremos qué es un repositorio de Spring Data y la forma de dec
 
 <br>
 
-[**`Siguiente`** -> Sesión 08](../Sesion8)
-
-[**`Regresar`**](./)
+[**`Regresar`**](../)
 

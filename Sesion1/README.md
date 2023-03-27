@@ -38,5 +38,5 @@ El objetivo de esta sesión es utilizar gradle para construir y ejecutar proyect
 
 [**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
 
-[**`Regresar`**](./)
+[**`Regresar`**](../)
 

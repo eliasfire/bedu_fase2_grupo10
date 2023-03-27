@@ -22,8 +22,12 @@ La misión será crear la nueva versión del sistema utilizando el patrón **Dec
 
 -------> [Ir a las clases de la app](./src/main/java)
 
+-------> [Ejemplos de la Sesión](../Ejercicios)
+
+-------> [Retos de la Sesión](../Retos)
+
 <br>
 
 [**`Siguiente`** -> Sesión 03](../../Sesion3)
 
-[**`Regresar`**](./)
+[**`Regresar`**](../../)

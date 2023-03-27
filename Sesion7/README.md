@@ -24,6 +24,6 @@ elementos visuales del sitio)
 
 <br>
 
-[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+[**`Siguiente`** -> Sesión 08](../Sesion8)
 
-[**`Regresar`**](./)
+[**`Regresar`**](../)

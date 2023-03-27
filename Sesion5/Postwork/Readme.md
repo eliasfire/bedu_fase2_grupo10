@@ -18,6 +18,6 @@
 
 <br>
 
-[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+[**`Siguiente`** -> Sesión 06](../../Sesion6)
 
-[**`Regresar`**](./)
+[**`Regresar`**](../../)

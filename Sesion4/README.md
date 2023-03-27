@@ -26,6 +26,6 @@ de desarrollar y consumir un servicio web REST usando Spring MVC posteriormente.
 
 <br>
 
-[**`Siguiente`** -> Sesión 02](../Sesion2/Postwork)
+[**`Siguiente`** -> Sesión 05](../Sesion5/Postwork)
 
-[**`Regresar`**](./)
+[**`Regresar`**](../)
