@@ -20,4 +20,4 @@
 
 [**`Siguiente`** -> Sesión 06](../../Sesion6)
 
-[**`Regresar`**](../../)
+[**`Regresar`**](../../../../)
