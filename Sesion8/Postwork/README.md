@@ -23,7 +23,7 @@ Almacenar la información de la agenda en MySQL y despues recuperarlas.
 
 #### Agregando una persona:
 
-4. Se abre un formulario para ingresar los datos.
+4. Al presionar el boton azul se abre un formulario para ingresar los datos.
 5. Antes de persistir los datos en la BD se validan segun el modelo Persona.
 
 ![pantalla-h2-console-connection](img/nuevo.png)
